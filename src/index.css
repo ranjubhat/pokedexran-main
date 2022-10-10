@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	border: 0;
+}
+
+.flexCenter {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.customBorderRadius {
+	border-radius: 8px;
+}
+
+button {
+	cursor: pointer;
+}
+
+.displayGrid {
+	display: grid;
+}

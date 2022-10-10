@@ -1,0 +1,30 @@
+.pokemonList {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 5%;
+	margin-top: 3%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	justify-items: center;
+}
+
+@media only screen and (max-width: 800px) and (min-width: 500px) {
+	.pokemonList {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+	.pokemonList {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+	.pokemonList {
+		grid-template-columns: repeat(5, 1fr);
+	}
+}
+@media only screen and (min-width: 1200px){
+	.pokemonList {
+		grid-template-columns: repeat(6, 1fr);
+	}
+}

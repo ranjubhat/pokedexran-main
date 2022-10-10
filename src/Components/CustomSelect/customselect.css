@@ -1,0 +1,62 @@
+.customSelectType{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: rgb(93, 95, 126);
+font-size: 16px;
+margin: 0px 0px 5px 6px
+}
+
+.customSelectContainer {
+	max-width: 250px;
+	cursor: pointer;
+}
+
+.customSelectLabelContainer {
+	display: flex;
+	height: 57px;
+	border-radius: 8px;
+	text-align: center;
+}
+
+.customSelectLabel {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	width: 100%;
+	font-weight: 300;
+}
+
+.dropDownOptionContainer {
+	display: flex;
+	flex-direction: column;
+	background: #ffffff;
+	
+	height: 100%;
+	margin-top: 3px;
+	justify-content: flex-start;
+	padding: 5px;
+}
+
+.inputLableContainer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.customInput {
+	background-color: '#2E3156';
+	margin: 8px;
+}
+.customInputLabel {
+	font-size: 14px;
+	color: #2e3156;
+}
+
+.customSelectHorizontalLine {
+	border: 0.2px solid #5d5f7e80;
+	margin: 2px;
+}

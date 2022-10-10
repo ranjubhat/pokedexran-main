@@ -1,0 +1,40 @@
+.pokemonCard {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 250px;
+	max-width: 150px;
+	color: black;
+	border: dashed 1px;
+	border-radius: 5px;
+	margin-top: 5%;
+	cursor: pointer;
+}
+
+@media only screen and (min-width: 900px) {
+	.pokemonCard {
+		max-width: 170px;
+	}
+}
+
+.pokemonLabel{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: #2E3156;
+}
+.pokemonId{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+color: #2E3156;
+}

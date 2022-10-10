@@ -1,0 +1,17 @@
+.descriptionContainer{
+    max-width: 80%;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgb(46, 49, 86);
+    overflow: hidden;
+    margin-top: 3%;
+}
+
+.readMoreButton{
+    background: none;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgb(46, 49, 86);
+    font-weight: bold;
+    text-decoration: underline;
+}

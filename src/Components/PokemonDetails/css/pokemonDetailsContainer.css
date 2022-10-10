@@ -1,0 +1,19 @@
+.pokemonDetailsContainer2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-items: center;
+	max-height: 80%;
+	column-gap: 5%;
+	margin-top: 5%;
+}
+
+@media only screen and (max-width: 2000px) and (min-width: 800px) {
+	.pokemonDetailsContainer2 {
+		grid-template-columns: 1fr 3fr;
+	}
+}
+@media only screen and (max-width: 1200px) and (min-width: 801px) {
+	.pokemonDetailsContainer2 {
+		grid-template-columns: 1fr 2fr;
+	}
+}

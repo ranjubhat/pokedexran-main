@@ -1,0 +1,12 @@
+.chip {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	width: 80px;
+	height: 24px;
+	border-radius: 5px;
+	border: solid 1px #2e3156;
+	text-transform: uppercase;
+	margin: 5px 5px 5px 0;
+}

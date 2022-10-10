@@ -1,0 +1,40 @@
+.bottomContainer {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-items: flex-start;
+	width: 100%;
+	gap: 10%;
+	margin-top: 5%;
+	row-gap: 50px;
+}
+
+.individualGrid {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.gridTitle {
+	font-size: 16px;
+	font-weight: 700;
+	color: #2e3156;
+}
+.gridValue {
+	font-size: 16px;
+	font-weight: 400;
+	color: #2e3156;
+	text-transform: capitalize;
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1200) {
+	.bottomContainer {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.bottomContainer {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
